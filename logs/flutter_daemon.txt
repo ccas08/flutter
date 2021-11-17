@@ -1,0 +1,38 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.28.0
+Flutter extension: 3.28.0 (activated)
+
+App: Visual Studio Code
+Version: 1.62.2
+Platform: win
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    FlutterDaemon
+
+Mon Nov 15 2021 [22:14:00 GMT-0300 (hora de verano de Chile)] Log file started
+[22:14:00] [FlutterDaemon] [Info] Spawning D:\flutter_windows_2.5.3-stable\flutter\bin\flutter.bat with args ["daemon"]
+[22:14:00] [FlutterDaemon] [Info] ..  in D:\flutter_windows_2.5.3-stable\flutter
+[22:14:00] [FlutterDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[22:14:00] [FlutterDaemon] [Info]     PID: 16952
+[22:14:00] [FlutterDaemon] [Info] ==> [{"id":"1","method":"emulator.getEmulators"}]
+[22:14:00] [FlutterDaemon] [Info] Process terminated! null, SIGTERM
+[22:14:06] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":25244}}]
+[22:14:06] [FlutterDaemon] [Info] ==> [{"id":"2","method":"device.enable"}]
+[22:14:06] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"Starting device daemon..."}}]
+[22:14:06] [FlutterDaemon] [Info] <== [{"id":"1","result":[]}]
+[22:14:06] [FlutterDaemon] [Info] <== [{"id":"2"}]
+[22:14:10] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"chrome","name":"Chrome","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null}}]
+[22:14:10] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"edge","name":"Edge","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null}}]
+[22:14:10] [FlutterDaemon] [Info] ==> [{"id":"3","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\carol\\Desktop\\mongo-flutter\\flutter_mongodb_contacts_app-main"}}]
+[22:14:10] [FlutterDaemon] [Info] ==> [{"id":"4","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\carol\\Desktop\\mongo-flutter\\flutter_mongodb_contacts_app-main\\client"}}]
+[22:14:10] [FlutterDaemon] [Info] ==> [{"id":"5","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\carol\\Desktop\\mongo-flutter\\flutter_mongodb_contacts_app-main\\server"}}]
+[22:14:10] [FlutterDaemon] [Info] <== [{"id":"3","result":{"platforms":[]}}]
+[22:14:10] [FlutterDaemon] [Info] <== [{"id":"4","result":{"platforms":["ios","android","web"]}}]
+[22:14:10] [FlutterDaemon] [Info] <== [{"id":"5","result":{"platforms":[]}}]
+[22:15:31] [FlutterDaemon] [Info] ==> [{"id":"6","method":"daemon.shutdown"}]
+[22:15:31] [FlutterDaemon] [Info] <== [{"id":"6"}]
+Mon Nov 15 2021 [22:15:31 GMT-0300 (hora de verano de Chile)] Log file ended
